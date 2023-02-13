@@ -1,0 +1,334 @@
+/* --Название кафе в шапке -- */
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+/* --Меню в шапке -- */
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+html, body{
+    width: 100%;
+    height: 100%;
+    background-color:#d1d1ae;
+    /* font-size: 18px; */
+     font-size: 1.2vw; 
+    position: relative;
+    font-family: 'Fjalla One', sans-serif;
+/* font-family: 'Shadows Into Light', cursive; */
+}
+/* ------------------------
+--- Шапка сайта-----
+-------------------------*/
+.top_menu {
+    width: 100%;
+    position: fixed;
+    top:0;
+    background-color:#bcbc9c;
+}
+.name {
+    width: 100%;
+    height: 5.5vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}  
+.name-gl{
+    width: 50%;
+    letter-spacing: 0.3vw;
+    text-align: center;
+}
+.name-gl a{
+    font-size: 3.5vw;
+    font-weight: bold;
+    color: rgb(114, 112, 112);
+    font-family: 'Shadows Into Light', cursive;
+}
+.name-menu{
+    width: 40%;
+}
+.name-menu a{
+    color: rgb(75, 75, 75);
+    font-weight: 500;
+    font-family: 'Fjalla One', sans-serif;
+}
+.name-menu ul{    
+    display: flex;
+    justify-content: space-between;  
+}
+.name a:hover{
+    color:rgb(21, 31, 14);
+    opacity: .7;
+}
+.name a:active{
+    color: rgb(75, 75, 75);
+    font-weight: bold;
+}
+/* --------------------------
+----Блок главной страницы----
+----------------------------*/
+.contayner_cafe {
+    width: 100%;
+    height: 100%;
+    margin-top: 4.5vw;
+    color: rgb(218, 215, 215);
+}
+.tags_angebot {
+    width: 100%;
+    height: auto;
+    background-image: url(../pict/777.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tags_angebot__content {
+    width: 65%;
+    padding: 4vw;
+    font-size: 2vw; 
+    line-height: 150%;
+    font-family: 'The Nautigal', cursive;
+}
+.wraper_menu {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    color:rgb(59, 16, 16);
+}
+.tags_menu {
+    max-width: 50%;
+    text-align: center;
+    font-size: 2vw; 
+}
+.tags_menu .p{
+    line-height: 120%;
+    padding: 0 1vw;
+}
+.h4 {
+    line-height: 100%;
+    font-family: 'The Nautigal', cursive;
+    font-style: italic;
+    font-size: 3vw;
+    padding: 2vw 5vw;
+    color:rgb(59, 16, 16);
+}
+.table-tags {
+    max-width: 50%;
+    padding: 1%;
+    font-size: 1.4vw; 
+    padding: 2vw;
+} 
+.table-tags  table{
+    border-spacing: 1.7vw 0px;
+    line-height: 150%;
+ } 
+.table-tags td:nth-child(1) {
+    font-weight: bold;
+} 
+.foto-menu {
+    width: 100%;
+    min-height:90px;
+    background-image: url(../pict/bret-1.jpg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    block-size: 100% auto;
+}
+.fruschtuk{
+    widows: 100%;
+    height: auto;
+    margin: 1%;
+}
+.table-fr{
+    padding: 0 2vw 3vw 2vw;
+    line-height: 150%;
+    border-spacing: 1vw;
+    color:rgb(34, 12, 12);
+    font-size: 1.4vw; 
+}
+.table-fr td{
+    border-bottom: 1px solid black;
+}
+.table-fr span{
+    font-weight: 600;
+}
+.table-fr td:nth-child(1){
+    width: 90%;
+}
+.table-fr td:nth-child(2){
+    text-align: center;
+    font-weight: 600;
+}
+/* ---------------------------
+--------Блок Uber uns --------
+------------------------------*/
+.kart{
+    background-image: url(../pict/222.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 25vw;
+    margin-bottom: 1.5%;
+} 
+.uber-text{
+    padding: 0 2vw 3vw 2vw;
+    line-height: 150%;
+    border-spacing: 1vw;
+    color:rgb(34, 12, 12);
+    font-size: 1.4vw; 
+    text-indent: 3vw;
+}
+/* ---------------------------
+----------Блок Menu ----------
+------------------------------*/
+.kart-menu{
+    background-image: url(../pict/11.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 15vw;
+} 
+.gl_menu{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 1.5vw;
+    color:rgb(34, 12, 12);
+    font-size: 1.4vw; 
+} 
+.gl_menu .h4{
+    padding-top: 1vw;
+}
+.cafe_menu{
+    display: flex;
+    justify-content: center;
+} 
+.cafe_menu1 span{
+    font-style: italic;
+    font-weight: 600;
+}
+.cafe_menu p{
+    font-weight: normal;
+    line-height: 120%;
+    padding-left: 2vw;
+    font-size: 1.3vw;
+} 
+.cafe_menu1, .cafe_menu2{
+    padding: 0 5vw;
+    width:50%;
+} 
+.podzagolovok{
+    font-weight: 500;
+    padding-bottom: 0.5vw;
+    font-size: 1.4vw; 
+} 
+.unten_p{
+    border-bottom: 0.15vw solid black; 
+}
+.last-p {
+    padding: 1vw 0;
+    line-height: 150%;
+}
+/* ------------------------
+---2 блок: Стилизация вываливающегося текста---
+-------------------------*/
+details > summary{
+    list-style: none;
+}
+details{
+    padding: 0.5vw;
+    font-weight:600;
+    border: rgb(34, 12, 12);
+}
+summary::before{
+    content: "+";
+    font-weight: 500;
+    margin: -0.5vw 5px 0 0; 
+}
+details[open] summary::before{
+    content: "-";
+}
+/* ---------------------------
+--------Блок Catering --------
+------------------------------*/
+.text_str{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    color:rgb(59, 16, 16);
+    padding: 3% 0; 
+} 
+.text_catering {
+    width: 55%;
+    height: 30%;
+    line-height: normal;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 1.4vw; 
+}
+.text_catering p{
+    text-indent: 3vw;
+}
+.kart_cafe{
+    width: 35vw;
+    height: 40vw;
+    background-image: url(../pict/3333.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}   
+/* ---------------------------
+--------Блок Contacts --------
+------------------------------*/
+.contayner_kontacts{
+    width: 100%;
+    font-size: 1.4vw; 
+    color:rgb(59, 16, 16);
+    background-color:#bcbc9c;
+}
+.kontakt_text{
+    width:50%;
+    margin: 0 auto;
+    padding: 2vw; 
+}
+.kontakt_text h2{
+    padding: 1% 0 1% 0;
+    line-height: 150%;
+    text-align: center;
+}
+.kontakt_text p{
+    padding-top: 1vw;
+    text-align: center;
+}
+.kontacts {
+    margin: 0 auto; 
+    padding: 1%;
+}
+.kontacts td {
+   font-size: 1.2vw;
+}
+.kontacts .col1 {
+    width:50%;
+   font-weight: 600;
+}
+.kontacts .col2{
+    width:50%; 
+    text-align: center;
+}  
+/* ---------------------------
+---------Блок: footer---------
+------------------------------*/
+.unter_info{
+    position: relative;
+}
+.foot_info{
+    min-height: 4rem;
+    min-width: 100%;
+    padding: 2vw;
+    text-align: center;
+    background-color:#bcbc9c;
+    bottom: 0;
+}
+.foot_info a{
+    color:rgb(59, 16, 16);
+}
+.foot_info a:hover{
+    color:rgb(147, 85, 85);
+}
+.foot_info a:active{
+    color: rgb(222, 153, 153);
+}
